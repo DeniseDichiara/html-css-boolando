@@ -51,6 +51,7 @@ div.column{
 
 div.column img{
     width: 80%;
+
 }
 
 div.column span.discount{
@@ -59,4 +60,30 @@ div.column span.discount{
     left: 1.9rem;
     background-color: red;
     color: white;
+}
+
+.sustainability{
+    position: absolute;
+    bottom: 2rem;
+    left: 4.5rem;
+    background-color: #008000;
+    color: white;
+}
+
+span.favourite{
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    font-size: 1rem;
+}
+
+img.img-hover{
+    display: none;
+}
+
+div.column:hover img.img-hover{
+    display: inline-block;
 }
