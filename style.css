@@ -23,6 +23,7 @@ main{
 .flex{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .margin-auto{
@@ -43,10 +44,19 @@ main{
 }
 
 div.column{
-    width: calc(100% / 3);
+    position: relative;
+    width: calc((100% / 3) - 50px);
     text-align: center;
 }
 
 div.column img{
     width: 80%;
+}
+
+div.column span.discount{
+    position: absolute;
+    bottom: 2rem;
+    left: 1.9rem;
+    background-color: red;
+    color: white;
 }
